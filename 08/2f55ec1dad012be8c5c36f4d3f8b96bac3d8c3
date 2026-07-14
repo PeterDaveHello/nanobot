@@ -1,0 +1,1576 @@
+webui/src/i18n/locales/zh-TW/common.json
+  s_c64f55c2041106::t_137ef6cf482304 14,57-107,436,445-447,514-515,520-521,629,638,657,884,955,963,971-972,991,1006,1076-1077
+  s_c64f55c2041106::t_eb65e75026692c 10,1143
+  s_c64f55c2041106::t_2af19cf42d4d20 217-230,235-243,260-270,273-291,295-307,312-315,323,345-354,362-365,451
+  s_c64f55c2041106::t_822db94a17caa9 534
+  s_c64f55c2041106::t_f81ac7652c1582 28-30,108,203,233,256-257,272,316-318,327,358,656,867
+  s_c64f55c2041106::t_a7fea54348666a 184,468,474
+  s_c64f55c2041106::t_efb8b5d70b298e 116-172,175-181,186,191-195,197-202
+  s_c64f55c2041106::t_f50b86e553e692 1064-1072,1083-1112,1116-1134
+  s_c64f55c2041106::t_54baab70e85db3 174,182,211,375-381,391,408-423,461
+  s_c64f55c2041106::t_27f733bc655ce8 342,541-618,635,645,663-704
+  s_c64f55c2041106::t_2b3c413b95aba5 710-792,800-864,876,889-929,936-952,956-960,964,975-976,992,1010-1019,1029-1052
+  s_c64f55c2041106::t_c3e68e859986d9 374,387-388,401-405,438-440,448,464-467,469,477-487,490-505,511-512,516-519,522,535
+  s_c64f55c2041106::t_dad101a39bda71 293,1027-1028
+  s_c64f55c2041106::t_96e8c924e9fd0f 185,187,196,271,308,489,509,531-532,796,931,988,1021-1022
+  s_c64f55c2041106::t_4529dbf79c0535 21,1114
+  s_73683fcc3050c7::t_1ecab73953e9e7 1-9,11-13,15-20,22-27,31-56,109-115,173,183,188-190,204-210,212-216,231-232,234,244-255,258-259,292,294,309-311,319-322,324-326,328-341,343-344,355-357,359-361,366-373,382-386,389-390,392-400,406-407,424-435,437,441-444,449-450,452-460,462-463,470-473,475-476,488,506-508,510,513,523-530,533,536-540,619-628,630-634,636-637,639-644,646-655,658-662,705-709,793-795,797-799,865-866,868-875,877-883,885-888,930,932-935,953-954,961-962,965-970,973-974,977-987,989-990,993-1005,1007-1009,1020,1023-1026,1053-1063,1073-1075,1078-1082,1113,1115,1135-1142,1144-1146
+.agent/design.md
+  s_6b715d61079e12::t_a6566510a0fdaf 1-29
+.agent/gotchas.md
+  s_6b715d61079e12::t_5050660dbaa937 1-40
+.agent/security.md
+  s_6b715d61079e12::t_3cb47499c8c008 1-29
+.dockerignore
+  s_6b715d61079e12::t_82e8bd4e403c93 1-14
+.gitattributes
+  s_6b715d61079e12::t_7228516f4170ff 1-2
+.github/ISSUE_TEMPLATE/bug_report.yml
+  s_6b715d61079e12::t_7519732ac6f59f 1-135
+.github/ISSUE_TEMPLATE/config.yml
+  s_6b715d61079e12::t_4bf7a589b7c43c 1-5
+.github/ISSUE_TEMPLATE/feature_request.yml
+  s_6b715d61079e12::t_95dfdc6055d291 1-55
+.github/workflows/ci.yml
+  s_6b715d61079e12::t_4a5c52652c9adf 1-81
+.gitignore
+  s_6b715d61079e12::t_97ff4ac35f4ef3 1-102
+AGENTS.md
+  s_6b715d61079e12::t_8d3db663f1a714 1-81
+CLAUDE.md
+  s_6b715d61079e12::t_166bef73a3a464 1
+COMMUNICATION.md
+  s_6b715d61079e12::t_939732da89ff13 1-5
+CONTRIBUTING.md
+  s_6b715d61079e12::t_40a90c2e149aa5 1-135
+Dockerfile
+  s_6b715d61079e12::t_a514a310e3ec9f 1-46
+LICENSE
+  s_6b715d61079e12::t_30c4cb90ec6018 1-21
+README.md
+  s_6b715d61079e12::t_9d758d9fc99e22 1-386
+SECURITY.md
+  s_6b715d61079e12::t_8b656ba61c755d 1-271
+THIRD_PARTY_NOTICES.md
+  s_6b715d61079e12::t_2cce1043a32aec 1-175
+core_agent_lines.sh
+  s_6b715d61079e12::t_3373d656d80aef 1-90
+docker-compose.yml
+  s_6b715d61079e12::t_9ff7cf34f6b7cd 1-56
+docs/README.md
+  s_6b715d61079e12::t_4b06e431eaece2 1-84
+docs/agent-social-network.md
+  s_6b715d61079e12::t_6f0e2fb0f6e078 1-99
+docs/architecture.md
+  s_6b715d61079e12::t_692fcc37bfd41e 1-212
+docs/automations.md
+  s_6b715d61079e12::t_530eb5245d1406 1-201
+docs/channel-plugin-guide.md
+  s_6b715d61079e12::t_9ec894123cd52f 1-568
+docs/chat-apps.md
+  s_6b715d61079e12::t_8572ef81e8e245 1-992
+docs/chat-commands.md
+  s_6b715d61079e12::t_0a6130fa8bfc76 1-156
+docs/cli-reference.md
+  s_6b715d61079e12::t_65b0f97a43d28b 1-304
+docs/concepts.md
+  s_6b715d61079e12::t_8ea84902ee10ff 1-166
+docs/configuration.md
+  s_6b715d61079e12::t_7de682cef436ae 1-2186
+docs/deployment.md
+  s_6b715d61079e12::t_4a0259270d9a5e 1-193
+docs/development.md
+  s_6b715d61079e12::t_a5978195ea6e82 1-121
+docs/guides/README.md
+  s_6b715d61079e12::t_00e27766a2bad7 1-49
+docs/guides/ai-agent-memory.md
+  s_6b715d61079e12::t_895acac0c93b6e 1-72
+docs/guides/ai-agent-webui.md
+  s_6b715d61079e12::t_50440cdf85ee72 1-73
+docs/guides/build-a-personal-ai-agent.md
+  s_6b715d61079e12::t_8531003b9bddaa 1-83
+docs/guides/chat-app-ai-agent.md
+  s_6b715d61079e12::t_728ef229c2a3b1 1-96
+docs/guides/configure-langfuse-observability.md
+  s_6b715d61079e12::t_cf33b6669629ac 1-79
+docs/guides/configure-mcp-tools.md
+  s_6b715d61079e12::t_84b47d6de5e93a 1-82
+docs/guides/configure-model-fallback.md
+  s_6b715d61079e12::t_1cc6ce54d46e76 1-93
+docs/guides/configure-openai-compatible-provider.md
+  s_6b715d61079e12::t_c6386bdf972c7f 1-93
+docs/guides/configure-web-search.md
+  s_6b715d61079e12::t_ab553394c45dfd 1-98
+docs/guides/deploy-nanobot-gateway.md
+  s_6b715d61079e12::t_c84a74d2b9f7f9 1-76
+docs/guides/discord-ai-agent.md
+  s_6b715d61079e12::t_c6b2aa6f73ac82 1-107
+docs/guides/email-ai-agent.md
+  s_6b715d61079e12::t_b6e116304970d8 1-93
+docs/guides/feishu-ai-agent.md
+  s_6b715d61079e12::t_b19ada99d5bda4 1-120
+docs/guides/long-running-ai-agent.md
+  s_6b715d61079e12::t_a8a1cdd6189afe 1-73
+docs/guides/mattermost-ai-agent.md
+  s_6b715d61079e12::t_b107898aad5e0c 1-104
+docs/guides/mcp-tools-for-ai-agents.md
+  s_6b715d61079e12::t_df171cfc1a3c86 1-75
+docs/guides/openai-compatible-agent-api.md
+  s_6b715d61079e12::t_bb9a51985b7cff 1-74
+docs/guides/python-ai-agent-sdk.md
+  s_6b715d61079e12::t_5f9aa951709f9d 1-75
+docs/guides/qq-ai-agent.md
+  s_6b715d61079e12::t_49020dde3e03b7 1-102
+docs/guides/secure-local-ai-agent.md
+  s_6b715d61079e12::t_8947c98762c728 1-78
+docs/guides/self-hosted-ai-agent.md
+  s_6b715d61079e12::t_7a1aa94b2ef5b0 1-83
+docs/guides/slack-ai-agent.md
+  s_6b715d61079e12::t_5ab08dc7713b86 1-109
+docs/guides/telegram-ai-agent.md
+  s_6b715d61079e12::t_b653d70baa731d 1-109
+docs/guides/wechat-ai-agent.md
+  s_6b715d61079e12::t_c6283722b48273 1-103
+docs/guides/whatsapp-ai-agent.md
+  s_6b715d61079e12::t_f13ba76f4d3daf 1-107
+docs/image-generation.md
+  s_6b715d61079e12::t_770bb5090b90c7 1-379
+docs/memory.md
+  s_6b715d61079e12::t_0905631e7916a9 1-213
+docs/multiple-instances.md
+  s_6b715d61079e12::t_15a8869ddc0a07 1-131
+docs/my-tool.md
+  s_6b715d61079e12::t_cd8879bf6169a8 1-211
+docs/openai-api.md
+  s_6b715d61079e12::t_0fe0991966a6f0 1-150
+docs/provider-cookbook.md
+  s_6b715d61079e12::t_0ee6b24cf87909 1-626
+docs/providers.md
+  s_6b715d61079e12::t_6f0040be6df9bb 1-587
+docs/python-sdk.md
+  s_6b715d61079e12::t_cf7e70b6b9703b 1-760
+docs/quick-start.md
+  s_6b715d61079e12::t_837e4a4338475e 1-249
+docs/release-archive.md
+  s_6b715d61079e12::t_410f1dcc1b89ed 1-164
+docs/start-without-technical-background.md
+  s_6b715d61079e12::t_6f84d9de6e064e 1-181
+docs/troubleshooting.md
+  s_6b715d61079e12::t_9073b6ce601d74 1-272
+docs/websocket.md
+  s_6b715d61079e12::t_38f5ae02101266 1-432
+docs/webui.md
+  s_6b715d61079e12::t_f601620d24deac 1-293
+entrypoint.sh
+  s_6b715d61079e12::t_88cd6484d159b8 1-15
+hatch_build.py
+  s_6b715d61079e12::t_315dbdeadce1cc 1-103
+nanobot/__init__.py
+  s_6b715d61079e12::t_254a42638d389c 1-83
+nanobot/__main__.py
+  s_6b715d61079e12::t_d2991ee9b00512 1-8
+nanobot/agent/__init__.py
+  s_6b715d61079e12::t_7bea0bdf8fbc33 1-29
+nanobot/agent/autocompact.py
+  s_6b715d61079e12::t_57bc61c09e49a2 1-125
+nanobot/agent/automation_turns.py
+  s_6b715d61079e12::t_6d98eb9ecd0693 1-149
+nanobot/agent/context.py
+  s_6b715d61079e12::t_fe07265e43c684 1-245
+nanobot/agent/context_governance.py
+  s_6b715d61079e12::t_d2a5ee951d6e1e 1-503
+nanobot/agent/cron_turns.py
+  s_6b715d61079e12::t_15a13deed30080 1-57
+nanobot/agent/goal_permission.py
+  s_6b715d61079e12::t_c7192c78704e58 1-29
+nanobot/agent/hook.py
+  s_6b715d61079e12::t_1f377c4f6c3510 1-292
+nanobot/agent/hooks/__init__.py
+  s_6b715d61079e12::t_814da050249569 1-11
+nanobot/agent/hooks/file_edit_activity.py
+  s_6b715d61079e12::t_0715945569f7b1 1-135
+nanobot/agent/loop.py
+  s_6b715d61079e12::t_cb2a205d282fe5 1-2017
+nanobot/agent/memory.py
+  s_6b715d61079e12::t_67cb8b5b9fd8b3 1-1167
+nanobot/agent/model_presets.py
+  s_6b715d61079e12::t_b8e51e1dd01e9a 1-65
+nanobot/agent/model_runtime.py
+  s_6b715d61079e12::t_ca77da781d6dc5 1-203
+nanobot/agent/progress_hook.py
+  s_6b715d61079e12::t_79896ffb54c037 1-159
+nanobot/agent/runner.py
+  s_6b715d61079e12::t_0cc80ad04d23be 1-1397
+nanobot/agent/skills.py
+  s_6b715d61079e12::t_85dc3e10a23aa5 1-260
+nanobot/agent/subagent.py
+  s_6b715d61079e12::t_9d4b5791b9df1c 1-469
+nanobot/agent/tools/__init__.py
+  s_6b715d61079e12::t_825aa4ea7417f2 1-32
+nanobot/agent/tools/apply_patch.py
+  s_6b715d61079e12::t_3e58be2a5706b0 1-296
+nanobot/agent/tools/base.py
+  s_6b715d61079e12::t_99dc4e9347866b 1-336
+nanobot/agent/tools/cli_apps.py
+  s_6b715d61079e12::t_96aaf9a57e31c6 1-159
+nanobot/agent/tools/context.py
+  s_6b715d61079e12::t_9be584533dd041 1-80
+nanobot/agent/tools/cron.py
+  s_6b715d61079e12::t_9230e370fc0b61 1-291
+nanobot/agent/tools/exec_session.py
+  s_6b715d61079e12::t_84053456229be1 1-628
+nanobot/agent/tools/file_state.py
+  s_6b715d61079e12::t_5ae9dae6bdf793 1-205
+nanobot/agent/tools/filesystem.py
+  s_6b715d61079e12::t_fb9f7777380cd5 1-1096
+nanobot/agent/tools/image_generation.py
+  s_6b715d61079e12::t_a3d2d43cc4f9ed 1-209
+nanobot/agent/tools/loader.py
+  s_6b715d61079e12::t_66b911d8fefe1b 1-185
+nanobot/agent/tools/long_task.py
+  s_6b715d61079e12::t_2cd3502ca56ae3 1-370
+nanobot/agent/tools/mcp.py
+  s_6b715d61079e12::t_7ec7f5bd548c8e 1-1435
+nanobot/agent/tools/message.py
+  s_6b715d61079e12::t_2b7ae098110810 1-271
+nanobot/agent/tools/path_utils.py
+  s_6b715d61079e12::t_cf4e307da09c29 1-34
+nanobot/agent/tools/registry.py
+  s_6b715d61079e12::t_3bce09737e8faf 1-211
+nanobot/agent/tools/runtime_state.py
+  s_6b715d61079e12::t_c4cbb24d3b98a1 1-64
+nanobot/agent/tools/sandbox.py
+  s_6b715d61079e12::t_fa633b2fb3a1d6 1-67
+nanobot/agent/tools/schema.py
+  s_6b715d61079e12::t_6cc4becc6daa81 1-239
+nanobot/agent/tools/search.py
+  s_6b715d61079e12::t_9b4b449b925a0d 1-585
+nanobot/agent/tools/self.py
+  s_6b715d61079e12::t_8a32c93d55ebd3 1-543
+nanobot/agent/tools/shell.py
+  s_6b715d61079e12::t_a4776afe0ceddf 1-804
+nanobot/agent/tools/spawn.py
+  s_6b715d61079e12::t_45be1d89fb7ede 1-88
+nanobot/agent/tools/web.py
+  s_6b715d61079e12::t_f23339b9ab73db 1-1139
+nanobot/agent/turn_hooks.py
+  s_6b715d61079e12::t_1fa6ca6417db1a 1-90
+nanobot/api/__init__.py
+  s_6b715d61079e12::t_b6c346d1a0fa4d 1
+nanobot/api/runtime.py
+  s_6b715d61079e12::t_4df0ec5a939783 1-60
+nanobot/api/server.py
+  s_6b715d61079e12::t_7763918a736e4f 1-434
+nanobot/apps/__init__.py
+  s_6b715d61079e12::t_73d5d8581357be 1-5
+nanobot/apps/cli/__init__.py
+  s_6b715d61079e12::t_c254dece50d827 1-13
+nanobot/apps/cli/service.py
+  s_6b715d61079e12::t_fb4c611ab75ba1 1-1367
+nanobot/apps/cli/utils.py
+  s_6b715d61079e12::t_6d3860aff2a8ef 1-63
+nanobot/apps/protocol.py
+  s_6b715d61079e12::t_1ca0f2e723a5ac 1-56
+nanobot/audio/__init__.py
+  s_6b715d61079e12::t_f161f44f160327 1-2
+nanobot/audio/transcription.py
+  s_6b715d61079e12::t_98a173bbf16d44 1-207
+nanobot/audio/transcription_registry.py
+  s_6b715d61079e12::t_ee3ddbb4a5072c 1-101
+nanobot/bus/__init__.py
+  s_6b715d61079e12::t_852ead9a4e8461 1-6
+nanobot/bus/events.py
+  s_6b715d61079e12::t_fcd2edd797fa59 1-57
+nanobot/bus/outbound_events.py
+  s_6b715d61079e12::t_898ed4ff87ed1c 1-226
+nanobot/bus/progress.py
+  s_6b715d61079e12::t_af09aa357bd99d 1-67
+nanobot/bus/queue.py
+  s_6b715d61079e12::t_75a4f887beab1b 1-44
+nanobot/bus/runtime_events.py
+  s_6b715d61079e12::t_5227ba7399a2f8 1-251
+nanobot/channels/__init__.py
+  s_6b715d61079e12::t_95a852ac12f3e7 1-6
+nanobot/channels/_feishu_instances.py
+  s_6b715d61079e12::t_f47580ba8944a2 1-184
+nanobot/channels/_feishu_ws.py
+  s_6b715d61079e12::t_d6b4868ca23788 1-126
+nanobot/channels/_setup.py
+  s_6b715d61079e12::t_4a2898668fb52b 1-343
+nanobot/channels/base.py
+  s_6b715d61079e12::t_6ae11912e649c3 1-276
+nanobot/channels/dingtalk.py
+  s_6b715d61079e12::t_2a8cdb1602c4b9 1-810
+nanobot/channels/discord.py
+  s_6b715d61079e12::t_3355775a514697 1-835
+nanobot/channels/email.py
+  s_6b715d61079e12::t_b105a001cc0c9a 1-915
+nanobot/channels/feishu.py
+  s_6b715d61079e12::t_d3be485c71a22e 1-2734
+nanobot/channels/manager.py
+  s_6b715d61079e12::t_72bcb610fb1223 1-841
+nanobot/channels/matrix.py
+  s_6b715d61079e12::t_5cfcc151a74190 1-1091
+nanobot/channels/mattermost.py
+  s_6b715d61079e12::t_620916cc49c051 1-713
+nanobot/channels/mochat.py
+  s_6b715d61079e12::t_2acd91e157fe15 1-943
+nanobot/channels/msteams.py
+  s_6b715d61079e12::t_231793877b3878 1-822
+nanobot/channels/napcat.py
+  s_6b715d61079e12::t_05c83849a94d43 1-579
+nanobot/channels/qq.py
+  s_6b715d61079e12::t_306e7e8ae5310a 1-701
+nanobot/channels/registry.py
+  s_6b715d61079e12::t_8d0012d5dbe049 1-105
+nanobot/channels/signal.py
+  s_6b715d61079e12::t_ee052c81e4cfc0 1-1403
+nanobot/channels/slack.py
+  s_6b715d61079e12::t_24796a4ad40d47 1-741
+nanobot/channels/telegram.py
+  s_6b715d61079e12::t_6f38e7ce40cb23 1-1722
+nanobot/channels/websocket.py
+  s_6b715d61079e12::t_729dedfc423e8e 1-1092
+nanobot/channels/wecom.py
+  s_6b715d61079e12::t_951d3f0a4de152 1-555
+nanobot/channels/weixin.py
+  s_6b715d61079e12::t_d7547de0317870 1-1630
+nanobot/channels/whatsapp.py
+  s_6b715d61079e12::t_7172b7f667494b 1-709
+nanobot/cli/__init__.py
+  s_6b715d61079e12::t_21e68f6aa40d30 1
+nanobot/cli/commands.py
+  s_6b715d61079e12::t_d678d867329e34 1-2863
+nanobot/cli/gateway.py
+  s_6b715d61079e12::t_fe26251afcd8f3 1-308
+nanobot/cli/models.py
+  s_6b715d61079e12::t_dcae8c10a6652f 1-31
+nanobot/cli/onboard.py
+  s_6b715d61079e12::t_9b2b4f2d3bac60 1-1990
+nanobot/cli/stream.py
+  s_6b715d61079e12::t_97f2c20daedb56 1-230
+nanobot/command/__init__.py
+  s_6b715d61079e12::t_e2c81e8eedfd1d 1-6
+nanobot/command/builtin.py
+  s_6b715d61079e12::t_a12147e57c7eac 1-960
+nanobot/command/router.py
+  s_6b715d61079e12::t_07d89d3d6b69cf 1-116
+nanobot/config/__init__.py
+  s_6b715d61079e12::t_991b401d33952e 1-32
+nanobot/config/loader.py
+  s_6b715d61079e12::t_0ddd6f33a2c555 1-211
+nanobot/config/paths.py
+  s_6b715d61079e12::t_e22b7cfaebca47 1-71
+nanobot/config/schema.py
+  s_6b715d61079e12::t_ceca70f0dabc24 1-639
+nanobot/config_base.py
+  s_6b715d61079e12::t_eb39539d72f3bb 1-15
+nanobot/cron/__init__.py
+  s_6b715d61079e12::t_b324f5e18a1432 1-18
+nanobot/cron/bound_runner.py
+  s_6b715d61079e12::t_0e5fc66cadc64d 1-151
+nanobot/cron/service.py
+  s_6b715d61079e12::t_f99cdee2161e08 1-869
+nanobot/cron/session_delivery.py
+  s_6b715d61079e12::t_fbadd76d77b13e 1-15
+nanobot/cron/session_turns.py
+  s_6b715d61079e12::t_d649273708edc2 1-86
+nanobot/cron/types.py
+  s_6b715d61079e12::t_cb33b6905566fa 1-86
+nanobot/cron/webui_metadata.py
+  s_6b715d61079e12::t_f38fa790c52765 1-27
+nanobot/gateway/__init__.py
+  s_6b715d61079e12::t_26544b2ee7f2e2 1-19
+nanobot/gateway/runtime.py
+  s_6b715d61079e12::t_c4b8644c155228 1-104
+nanobot/gateway/service.py
+  s_6b715d61079e12::t_16a356404f6bb9 1-286
+nanobot/nanobot.py
+  s_6b715d61079e12::t_1e172723a766a0 1-307
+nanobot/optional_features.py
+  s_6b715d61079e12::t_e1818856c49943 1-639
+nanobot/pairing/__init__.py
+  s_6b715d61079e12::t_f6772630524db2 1-37
+nanobot/pairing/store.py
+  s_6b715d61079e12::t_d36426e365dbbe 1-300
+nanobot/process_runtime.py
+  s_6b715d61079e12::t_b7180bdc613790 1-456
+nanobot/providers/__init__.py
+  s_6b715d61079e12::t_3dd3c9685c7e0f 1-45
+nanobot/providers/anthropic_provider.py
+  s_6b715d61079e12::t_e0cd737b7bb6e2 1-801
+nanobot/providers/azure_openai_provider.py
+  s_6b715d61079e12::t_7e2422e428bdc9 1-252
+nanobot/providers/base.py
+  s_6b715d61079e12::t_757b9b75d7616a 1-979
+nanobot/providers/bedrock_provider.py
+  s_6b715d61079e12::t_4ef4ea1654bfe2 1-755
+nanobot/providers/factory.py
+  s_6b715d61079e12::t_46a9db0746ed1e 1-286
+nanobot/providers/fallback_provider.py
+  s_6b715d61079e12::t_c13e45f1a5d2ba 1-314
+nanobot/providers/github_copilot_provider.py
+  s_6b715d61079e12::t_0a26671a41e8e2 1-284
+nanobot/providers/image_generation.py
+  s_6b715d61079e12::t_bf83ff55b54b48 1-1761
+nanobot/providers/openai_codex_provider.py
+  s_6b715d61079e12::t_9498ab116ccf75 1-338
+nanobot/providers/openai_compat_provider.py
+  s_6b715d61079e12::t_2282f90a66dbb5 1-1707
+nanobot/providers/openai_responses/__init__.py
+  s_6b715d61079e12::t_b924d8131deee7 1-31
+nanobot/providers/openai_responses/converters.py
+  s_6b715d61079e12::t_d0268d9f8c0544 1-129
+nanobot/providers/openai_responses/parsing.py
+  s_6b715d61079e12::t_ecfc9c3cbcc596 1-442
+nanobot/providers/registry.py
+  s_6b715d61079e12::t_2fae9bf8f530bb 1-713
+nanobot/providers/transcription.py
+  s_6b715d61079e12::t_65419298a5e916 1-827
+nanobot/runtime_context.py
+  s_6b715d61079e12::t_255dad6ede421b 1-126
+nanobot/sdk/__init__.py
+  s_6b715d61079e12::t_0650f1f2557abf 1
+nanobot/sdk/clients.py
+  s_6b715d61079e12::t_75d1d0d7ccc557 1-216
+nanobot/sdk/runtime.py
+  s_6b715d61079e12::t_98f5c7ff94ffad 1-44
+nanobot/sdk/streaming.py
+  s_6b715d61079e12::t_6cb43e1ffd5f7b 1-222
+nanobot/sdk/types.py
+  s_6b715d61079e12::t_1c585cc3c0f341 1-173
+nanobot/security/__init__.py
+  s_6b715d61079e12::t_6e1856e0cfc15b 1
+nanobot/security/network.py
+  s_6b715d61079e12::t_1a5d37e92830eb 1-311
+nanobot/security/workspace_access.py
+  s_6b715d61079e12::t_44d89182ae798e 1-430
+nanobot/security/workspace_policy.py
+  s_6b715d61079e12::t_25af001b1bc05f 1-128
+nanobot/session/__init__.py
+  s_6b715d61079e12::t_d179aed1153f2a 1-5
+nanobot/session/automation_turns.py
+  s_6b715d61079e12::t_ec92b629445b59 1-92
+nanobot/session/goal_state.py
+  s_6b715d61079e12::t_5645d4b414a264 1-132
+nanobot/session/history_visibility.py
+  s_6b715d61079e12::t_895b8012cda13e 1-22
+nanobot/session/keys.py
+  s_6b715d61079e12::t_43b8e420a665ff 1-12
+nanobot/session/manager.py
+  s_6b715d61079e12::t_802d0bcd12b0e1 1-938
+nanobot/session/turn_continuation.py
+  s_6b715d61079e12::t_46d3a9ef680186 1-275
+nanobot/session/webui_turns.py
+  s_6b715d61079e12::t_7c59ae378ccbe2 1-462
+nanobot/skills/README.md
+  s_6b715d61079e12::t_9d68e914c2d63b 1-31
+nanobot/skills/clawhub/SKILL.md
+  s_6b715d61079e12::t_ac40b87cab441d 1-53
+nanobot/skills/cron/SKILL.md
+  s_6b715d61079e12::t_5883f228eaa2fc 1-59
+nanobot/skills/github/SKILL.md
+  s_6b715d61079e12::t_b2deefc34b8a08 1-48
+nanobot/skills/image-generation/SKILL.md
+  s_6b715d61079e12::t_524e6780975fad 1-66
+nanobot/skills/memory/SKILL.md
+  s_6b715d61079e12::t_e4e618ca36faaa 1-36
+nanobot/skills/my/SKILL.md
+  s_6b715d61079e12::t_f12023ea73d6d8 1-73
+nanobot/skills/my/references/examples.md
+  s_6b715d61079e12::t_d41f59832d306c 1-84
+nanobot/skills/skill-creator/SKILL.md
+  s_6b715d61079e12::t_d28cded6c00571 1-374
+nanobot/skills/skill-creator/scripts/init_skill.py
+  s_6b715d61079e12::t_0380e246e6e888 1-378
+nanobot/skills/skill-creator/scripts/package_skill.py
+  s_6b715d61079e12::t_bf8b9d9472fd5a 1-152
+nanobot/skills/skill-creator/scripts/quick_validate.py
+  s_6b715d61079e12::t_d81e7dd235262f 1-213
+nanobot/skills/summarize/SKILL.md
+  s_6b715d61079e12::t_4de1f5c4b29ad9 1-67
+nanobot/skills/tmux/SKILL.md
+  s_6b715d61079e12::t_84b773100f94ae 1-121
+nanobot/skills/tmux/scripts/find-sessions.sh
+  s_6b715d61079e12::t_9836072a232bc1 1-112
+nanobot/skills/tmux/scripts/wait-for-text.sh
+  s_6b715d61079e12::t_6f2068ffe0a138 1-83
+nanobot/skills/update-setup/SKILL.md
+  s_6b715d61079e12::t_cc6e99d6d4b4c4 1-123
+nanobot/skills/weather/SKILL.md
+  s_6b715d61079e12::t_408925060ec019 1-49
+nanobot/templates/AGENTS.md
+  s_6b715d61079e12::t_8867dc46b2af50 1-24
+nanobot/templates/HEARTBEAT.md
+  s_6b715d61079e12::t_4a9f1ae2aaae31 1-14
+nanobot/templates/SOUL.md
+  s_6b715d61079e12::t_f7b643e0cea5a8 1-20
+nanobot/templates/USER.md
+  s_6b715d61079e12::t_954e06f09650fb 1-49
+nanobot/templates/agent/_snippets/untrusted_content.md
+  s_6b715d61079e12::t_98166386ccac2b 1-2
+nanobot/templates/agent/consolidator_archive.md
+  s_6b715d61079e12::t_fc30c9e01a88d1 1-24
+nanobot/templates/agent/cron_reminder.md
+  s_6b715d61079e12::t_a245ea25d86d54 1-9
+nanobot/templates/agent/dream.md
+  s_6b715d61079e12::t_5b7482e66955c5 1-108
+nanobot/templates/agent/evaluator.md
+  s_6b715d61079e12::t_0c154747f60c92 1-17
+nanobot/templates/agent/goal_runtime.md
+  s_6b715d61079e12::t_a3bad118568ae4 1-31
+nanobot/templates/agent/identity.md
+  s_6b715d61079e12::t_89e49322ea8723 1-34
+nanobot/templates/agent/max_iterations_message.md
+  s_6b715d61079e12::t_40009ab0c271f9 1
+nanobot/templates/agent/platform_policy.md
+  s_6b715d61079e12::t_f422257552ea8c 1-10
+nanobot/templates/agent/skills_section.md
+  s_6b715d61079e12::t_e035d345b55cbb 1-6
+nanobot/templates/agent/subagent_announce.md
+  s_6b715d61079e12::t_0d5bd896fa5bb6 1-8
+nanobot/templates/agent/subagent_system.md
+  s_6b715d61079e12::t_34eac635f92a61 1-17
+nanobot/templates/agent/tool_contract.md
+  s_6b715d61079e12::t_8b076280337879 1-66
+nanobot/templates/memory/MEMORY.md
+  s_6b715d61079e12::t_fd36b87462a1dd 1-23
+nanobot/templates/prompts/README.md
+  s_6b715d61079e12::t_7e20d99f0b51b0 1-11
+nanobot/triggers/__init__.py
+  s_6b715d61079e12::t_dcb3c950950515 1-19
+nanobot/triggers/local_runner.py
+  s_6b715d61079e12::t_8c8ce368f7aab2 1-209
+nanobot/triggers/local_session_turns.py
+  s_6b715d61079e12::t_987555f54e63aa 1-62
+nanobot/triggers/local_store.py
+  s_6b715d61079e12::t_20f53ef5f33a48 1-474
+nanobot/triggers/local_turns.py
+  s_6b715d61079e12::t_e36a5cbc9b80f8 1-55
+nanobot/triggers/local_types.py
+  s_6b715d61079e12::t_976c2a85e5a39b 1-141
+nanobot/utils/__init__.py
+  s_6b715d61079e12::t_f9ef95d73d3a06 1-42
+nanobot/utils/artifacts.py
+  s_6b715d61079e12::t_69103eea8e2604 1-122
+nanobot/utils/document.py
+  s_6b715d61079e12::t_2601b79be40418 1-469
+nanobot/utils/evaluator.py
+  s_6b715d61079e12::t_35505d35d25fc6 1-94
+nanobot/utils/file_edit_events.py
+  s_6b715d61079e12::t_9dd5610fb6e5c6 1-512
+nanobot/utils/gitstore.py
+  s_6b715d61079e12::t_983d26eb6aae03 1-546
+nanobot/utils/helpers.py
+  s_6b715d61079e12::t_58ea5410972808 1-791
+nanobot/utils/llm_runtime.py
+  s_6b715d61079e12::t_96ce025f4f4720 1-106
+nanobot/utils/logging_bridge.py
+  s_6b715d61079e12::t_6a6991d83fee86 1-47
+nanobot/utils/media_decode.py
+  s_6b715d61079e12::t_bab6aaca58e68f 1-93
+nanobot/utils/path.py
+  s_6b715d61079e12::t_1ebe68df9511a9 1-107
+nanobot/utils/progress_events.py
+  s_6b715d61079e12::t_585cb41cfdc0bc 1-106
+nanobot/utils/prompt_templates.py
+  s_6b715d61079e12::t_5a5e4df8c22ebb 1-35
+nanobot/utils/restart.py
+  s_6b715d61079e12::t_f9db6c61abca57 1-84
+nanobot/utils/run_records.py
+  s_6b715d61079e12::t_cd2eadea0dee3d 1-58
+nanobot/utils/runtime.py
+  s_6b715d61079e12::t_df51b3446999b1 1-198
+nanobot/utils/searchusage.py
+  s_6b715d61079e12::t_5203108ed887ba 1-168
+nanobot/utils/subagent_channel_display.py
+  s_6b715d61079e12::t_bb347debf573a4 1-59
+nanobot/utils/tool_hints.py
+  s_6b715d61079e12::t_3dc857fe4db0a5 1-147
+nanobot/web/__init__.py
+  s_6b715d61079e12::t_12135bb4c47d25 1-9
+nanobot/webui/__init__.py
+  s_6b715d61079e12::t_6b39097506174e 1-2
+nanobot/webui/attachment_ingress.py
+  s_6b715d61079e12::t_931ca7f20bfc23 1-170
+nanobot/webui/build.py
+  s_6b715d61079e12::t_4cb1a50c280d43 1-296
+nanobot/webui/channel_connect.py
+  s_6b715d61079e12::t_ab9274b0434cdd 1-435
+nanobot/webui/channel_validation.py
+  s_6b715d61079e12::t_2e3087898cef7a 1-541
+nanobot/webui/cli_apps_api.py
+  s_6b715d61079e12::t_d536f679e0bbb1 1-129
+nanobot/webui/file_preview.py
+  s_6b715d61079e12::t_3358d8618491cc 1-137
+nanobot/webui/forking.py
+  s_6b715d61079e12::t_632e367029bcda 1-113
+nanobot/webui/gateway_services.py
+  s_6b715d61079e12::t_d963a8fe63041b 1-109
+nanobot/webui/gateway_tokens.py
+  s_6b715d61079e12::t_1804b295883662 1-86
+nanobot/webui/http_utils.py
+  s_6b715d61079e12::t_da687bb3df5109 1-212
+nanobot/webui/ingress_policy.py
+  s_6b715d61079e12::t_273a34ee64c7cb 1-70
+nanobot/webui/mcp_presets_api.py
+  s_6b715d61079e12::t_30c01b733b87c4 1-1312
+nanobot/webui/mcp_presets_runtime.py
+  s_6b715d61079e12::t_2d2d619026d9df 1-5
+nanobot/webui/media_api.py
+  s_6b715d61079e12::t_78a14a69bebd08 1-284
+nanobot/webui/media_gateway.py
+  s_6b715d61079e12::t_9abad786496349 1-108
+nanobot/webui/metadata.py
+  s_6b715d61079e12::t_c0eba53407de7b 1-4
+nanobot/webui/nanobot_features_api.py
+  s_6b715d61079e12::t_35fb9af8149f6b 1-42
+nanobot/webui/session_automations.py
+  s_6b715d61079e12::t_39327527319aae 1-340
+nanobot/webui/session_list_index.py
+  s_6b715d61079e12::t_089122fd98a65f 1-341
+nanobot/webui/settings_api.py
+  s_6b715d61079e12::t_06140d6a9a3f15 1-1622
+nanobot/webui/settings_routes.py
+  s_6b715d61079e12::t_7f05294acb4502 1-1119
+nanobot/webui/sidebar_state.py
+  s_6b715d61079e12::t_bcb60147c796fd 1-196
+nanobot/webui/skills_api.py
+  s_6b715d61079e12::t_38e6a1104bc866 1-61
+nanobot/webui/thread_disk.py
+  s_6b715d61079e12::t_248d5f2b49deb5 1-31
+nanobot/webui/token_usage.py
+  s_6b715d61079e12::t_28c643d54c1255 1-357
+nanobot/webui/transcript.py
+  s_6b715d61079e12::t_0ae0bed1516f0a 1-1991
+nanobot/webui/transcription_ws.py
+  s_6b715d61079e12::t_9fef4771494335 1-46
+nanobot/webui/version_check.py
+  s_6b715d61079e12::t_bbb1a4a00ab3f1 1-51
+nanobot/webui/websocket_logging.py
+  s_6b715d61079e12::t_3ee5170d65c8a4 1-46
+nanobot/webui/workspaces.py
+  s_6b715d61079e12::t_9b00da97805344 1-294
+nanobot/webui/ws_http.py
+  s_6b715d61079e12::t_d5433add49c0b9 1-1022
+pyproject.toml
+  s_6b715d61079e12::t_93fbdddb3a7dc0 1-230
+scripts/install.ps1
+  s_6b715d61079e12::t_4e644a6edc8092 1-308
+scripts/install.sh
+  s_6b715d61079e12::t_df2cf3712d477d 1-283
+tests/agent/conftest.py
+  s_6b715d61079e12::t_255abccff30fcb 1-91
+tests/agent/runner_helpers.py
+  s_6b715d61079e12::t_6d5dd5702e0f91 1-54
+tests/agent/test_auto_compact.py
+  s_6b715d61079e12::t_870404f718767c 1-1260
+tests/agent/test_autocompact_unit.py
+  s_6b715d61079e12::t_2aab590734d893 1-557
+tests/agent/test_consolidate_offset.py
+  s_6b715d61079e12::t_b799b5d30335a0 1-636
+tests/agent/test_consolidation_ratio.py
+  s_6b715d61079e12::t_6a764da8f3ae9b 1-112
+tests/agent/test_consolidator.py
+  s_6b715d61079e12::t_39dc67986cd452 1-1050
+tests/agent/test_context_aware.py
+  s_6b715d61079e12::t_40418cc9e8cd70 1-23
+tests/agent/test_context_builder.py
+  s_6b715d61079e12::t_0cbf19ed914f9f 1-330
+tests/agent/test_context_prompt_cache.py
+  s_6b715d61079e12::t_e5ea9c199bb380 1-384
+tests/agent/test_cursor_recovery.py
+  s_6b715d61079e12::t_5b2cf513926dae 1-234
+tests/agent/test_document_extraction_toggle.py
+  s_6b715d61079e12::t_e8fc3cde5e94b8 1-172
+tests/agent/test_dream.py
+  s_6b715d61079e12::t_a195a577b3beaa 1-730
+tests/agent/test_dream_session.py
+  s_6b715d61079e12::t_efda9ed85f3369 1-104
+tests/agent/test_dream_tools.py
+  s_6b715d61079e12::t_966b1ac07432b1 1-19
+tests/agent/test_evaluator.py
+  s_6b715d61079e12::t_6deccd81114e60 1-81
+tests/agent/test_gemini_thought_signature.py
+  s_6b715d61079e12::t_f9caa0dc51f38a 1-245
+tests/agent/test_git_store.py
+  s_6b715d61079e12::t_2831f811c1771d 1-277
+tests/agent/test_hook_composite.py
+  s_6b715d61079e12::t_cdd75443a34011 1-600
+tests/agent/test_loop_consolidation_tokens.py
+  s_6b715d61079e12::t_211681182d3081 1-277
+tests/agent/test_loop_cron_timezone.py
+  s_6b715d61079e12::t_69bab1ad8f159a 1-27
+tests/agent/test_loop_direct_websocket_status.py
+  s_6b715d61079e12::t_6b272471695ade 1-123
+tests/agent/test_loop_goal_wall_timeout.py
+  s_6b715d61079e12::t_1d97452cb30f77 1-49
+tests/agent/test_loop_image_generation_media.py
+  s_6b715d61079e12::t_7b0b90321c391d 1-87
+tests/agent/test_loop_progress.py
+  s_6b715d61079e12::t_ebaf289dda33ca 1-889
+tests/agent/test_loop_runner_integration.py
+  s_6b715d61079e12::t_664a8490a468da 1-589
+tests/agent/test_loop_save_turn.py
+  s_6b715d61079e12::t_71590b74f1075b 1-1738
+tests/agent/test_loop_tool_context.py
+  s_6b715d61079e12::t_a0bd3ef7248324 1-242
+tests/agent/test_max_messages_config.py
+  s_6b715d61079e12::t_af076b4689957b 1-220
+tests/agent/test_mcp_connection.py
+  s_6b715d61079e12::t_d164d840c0f469 1-580
+tests/agent/test_mcp_reconnect_crash.py
+  s_6b715d61079e12::t_bbc130ed8d0201 1-245
+tests/agent/test_mcp_transient_retry.py
+  s_6b715d61079e12::t_303a6bb7965760 1-493
+tests/agent/test_memory_store.py
+  s_6b715d61079e12::t_60a14cce532564 1-540
+tests/agent/test_model_runtime_resolver.py
+  s_6b715d61079e12::t_8656e7fa96fe09 1-220
+tests/agent/test_onboard_logic.py
+  s_6b715d61079e12::t_305530e94f7367 1-2039
+tests/agent/test_runner_core.py
+  s_6b715d61079e12::t_017025a5d1eff6 1-687
+tests/agent/test_runner_errors.py
+  s_6b715d61079e12::t_691503afb3d7e7 1-278
+tests/agent/test_runner_fallback.py
+  s_6b715d61079e12::t_a296e42b280631 1-722
+tests/agent/test_runner_goal_continue.py
+  s_6b715d61079e12::t_8261812aa39505 1-247
+tests/agent/test_runner_governance.py
+  s_6b715d61079e12::t_48b651664422bb 1-1039
+tests/agent/test_runner_hooks.py
+  s_6b715d61079e12::t_ca421a75ed1fb8 1-562
+tests/agent/test_runner_injections.py
+  s_6b715d61079e12::t_dbdb71524fd1b6 1-1416
+tests/agent/test_runner_persistence.py
+  s_6b715d61079e12::t_88fdf6cf53f317 1-211
+tests/agent/test_runner_progress_deltas.py
+  s_6b715d61079e12::t_89a878221794e9 1-353
+tests/agent/test_runner_reasoning.py
+  s_6b715d61079e12::t_a1716ca19576f0 1-447
+tests/agent/test_runner_runtime_identity.py
+  s_6b715d61079e12::t_f7ae670062e8e7 1-71
+tests/agent/test_runner_safety.py
+  s_6b715d61079e12::t_2982b286635f7d 1-241
+tests/agent/test_runner_tool_execution.py
+  s_6b715d61079e12::t_9b1b2cdd04afb4 1-470
+tests/agent/test_runtime_context.py
+  s_6b715d61079e12::t_2fbd0ee844ea6e 1-118
+tests/agent/test_runtime_refresh.py
+  s_6b715d61079e12::t_4da0a0dc8f74c7 1-180
+tests/agent/test_self_model_preset.py
+  s_6b715d61079e12::t_0f67815d6e7b7e 1-330
+tests/agent/test_session_atomic.py
+  s_6b715d61079e12::t_f4240980b8ad24 1-264
+tests/agent/test_session_collision.py
+  s_6b715d61079e12::t_1e737a62a50fc6 1-170
+tests/agent/test_session_delete.py
+  s_6b715d61079e12::t_5e022fec112f84 1-145
+tests/agent/test_session_manager_history.py
+  s_6b715d61079e12::t_2c3e7edc8a26b6 1-918
+tests/agent/test_skill_creator_scripts.py
+  s_6b715d61079e12::t_ccb43bb36a554e 1-127
+tests/agent/test_skills_loader.py
+  s_6b715d61079e12::t_129b75f18fb661 1-399
+tests/agent/test_stop_preserves_context.py
+  s_6b715d61079e12::t_d0fa188ece756a 1-165
+tests/agent/test_subagent.py
+  s_6b715d61079e12::t_8ea1b1f1472900 1-117
+tests/agent/test_subagent_lifecycle.py
+  s_6b715d61079e12::t_bb7c7cde5b93e1 1-685
+tests/agent/test_task_cancel.py
+  s_6b715d61079e12::t_483391f6934cf9 1-533
+tests/agent/test_tool_hint.py
+  s_6b715d61079e12::t_674e896270007f 1-327
+tests/agent/test_tool_loader_entrypoints.py
+  s_6b715d61079e12::t_0a39ac8374d810 1-144
+tests/agent/test_tool_loader_scopes.py
+  s_6b715d61079e12::t_2473d897fc7ed1 1-77
+tests/agent/test_turn_hooks.py
+  s_6b715d61079e12::t_aecc1075fca8ee 1-130
+tests/agent/test_unified_session.py
+  s_6b715d61079e12::t_18a141fc26c51f 1-550
+tests/agent/test_workspace_scope.py
+  s_6b715d61079e12::t_452301e29d56fd 1-388
+tests/agent/tools/test_long_task.py
+  s_6b715d61079e12::t_8a980437c78626 1-468
+tests/agent/tools/test_self_tool.py
+  s_6b715d61079e12::t_e55f7bb682928e 1-1189
+tests/agent/tools/test_self_tool_runtime_sync.py
+  s_6b715d61079e12::t_4fc4d5652fe70c 1-29
+tests/agent/tools/test_subagent_tools.py
+  s_6b715d61079e12::t_6d11af7814f6c2 1-500
+tests/bus/test_outbound_events.py
+  s_6b715d61079e12::t_39e4e857dccba6 1-244
+tests/bus/test_runtime_events.py
+  s_6b715d61079e12::t_29e02b06b17a05 1-122
+tests/channels/test_base_channel.py
+  s_6b715d61079e12::t_7dd3af13fb6777 1-95
+tests/channels/test_channel_manager_delta_coalescing.py
+  s_6b715d61079e12::t_82ffd64fa4bcf5 1-433
+tests/channels/test_channel_manager_hot_reload.py
+  s_6b715d61079e12::t_80dca3044fccf3 1-114
+tests/channels/test_channel_manager_reasoning.py
+  s_6b715d61079e12::t_0582d063f9936a 1-317
+tests/channels/test_channel_plugins.py
+  s_6b715d61079e12::t_f0ac33c7f79f39 1-2678
+tests/channels/test_channel_setup.py
+  s_6b715d61079e12::t_cb0d302926b8b3 1-54
+tests/channels/test_dingtalk_channel.py
+  s_6b715d61079e12::t_eb62e0c8c8f731 1-951
+tests/channels/test_discord_channel.py
+  s_6b715d61079e12::t_7097c7ca5bf7fe 1-1387
+tests/channels/test_email_channel.py
+  s_6b715d61079e12::t_42b8953bfc39e3 1-1869
+tests/channels/test_feishu_card_extraction.py
+  s_6b715d61079e12::t_28bdc22a0a5337 1-39
+tests/channels/test_feishu_domain.py
+  s_6b715d61079e12::t_1a456a7647155f 1-48
+tests/channels/test_feishu_lazy_import.py
+  s_6b715d61079e12::t_cd78c8080d0ead 1-59
+tests/channels/test_feishu_login.py
+  s_6b715d61079e12::t_503c71105f50d8 1-406
+tests/channels/test_feishu_markdown_rendering.py
+  s_6b715d61079e12::t_930e802a89a3ed 1-68
+tests/channels/test_feishu_media_filename_security.py
+  s_6b715d61079e12::t_59d07b7d4069f4 1-38
+tests/channels/test_feishu_mention.py
+  s_6b715d61079e12::t_0ed2fd84765960 1-62
+tests/channels/test_feishu_mentions.py
+  s_6b715d61079e12::t_b7b5f27ed54f5e 1-65
+tests/channels/test_feishu_post_content.py
+  s_6b715d61079e12::t_cbde8c57de1c96 1-76
+tests/channels/test_feishu_reaction.py
+  s_6b715d61079e12::t_5ab01d4bfc4759 1-327
+tests/channels/test_feishu_reply.py
+  s_6b715d61079e12::t_ae958f68d3c1d2 1-1294
+tests/channels/test_feishu_streaming.py
+  s_6b715d61079e12::t_f3236f0bdf72a9 1-642
+tests/channels/test_feishu_table_split.py
+  s_6b715d61079e12::t_6c5f0b1500bae8 1-115
+tests/channels/test_feishu_tool_hint_code_block.py
+  s_6b715d61079e12::t_83f53ae2c31427 1-214
+tests/channels/test_feishu_ws.py
+  s_6b715d61079e12::t_a220f9dd1d1d61 1-33
+tests/channels/test_matrix_channel.py
+  s_6b715d61079e12::t_40068696e54206 1-2167
+tests/channels/test_mattermost_channel.py
+  s_6b715d61079e12::t_53078224c75e1b 1-992
+tests/channels/test_napcat_channel.py
+  s_6b715d61079e12::t_2132bbccb2dbc8 1-172
+tests/channels/test_qq_ack_message.py
+  s_6b715d61079e12::t_ccdfd905f24e8e 1-172
+tests/channels/test_qq_channel.py
+  s_6b715d61079e12::t_247682aff30bae 1-438
+tests/channels/test_qq_media.py
+  s_6b715d61079e12::t_6f56c2a40158f4 1-373
+tests/channels/test_signal_channel.py
+  s_6b715d61079e12::t_1677b9f5f656b5 1-1515
+tests/channels/test_signal_markdown.py
+  s_6b715d61079e12::t_7b31d897cdfdf5 1-525
+tests/channels/test_slack_channel.py
+  s_6b715d61079e12::t_01db5c6c8f6882 1-716
+tests/channels/test_telegram_channel.py
+  s_6b715d61079e12::t_7acce25e11e7be 1-2239
+tests/channels/test_websocket_channel.py
+  s_6b715d61079e12::t_6b0b23ab9572a5 1-3255
+tests/channels/test_websocket_envelope_media.py
+  s_6b715d61079e12::t_745a502530f6d5 1-548
+tests/channels/test_websocket_http_routes.py
+  s_6b715d61079e12::t_dee7478f4f4891 1-2882
+tests/channels/test_websocket_integration.py
+  s_6b715d61079e12::t_1b44c1c5d04a81 1-556
+tests/channels/test_websocket_media_route.py
+  s_6b715d61079e12::t_1a627613dab938 1-580
+tests/channels/test_websocket_protocol_boundaries.py
+  s_6b715d61079e12::t_efaaed13a01739 1-57
+tests/channels/test_websocket_reconnect_idle.py
+  s_6b715d61079e12::t_584389d88bc326 1-59
+tests/channels/test_wecom_channel.py
+  s_6b715d61079e12::t_02c8730ab9b83a 1-686
+tests/channels/test_weixin_channel.py
+  s_6b715d61079e12::t_05742a804f6ff7 1-1849
+tests/channels/test_whatsapp_channel.py
+  s_6b715d61079e12::t_d81e446a971022 1-528
+tests/channels/ws_test_client.py
+  s_6b715d61079e12::t_81319e462d8bd6 1-227
+tests/cli/test_bot_identity.py
+  s_6b715d61079e12::t_b6d2635c2f157f 1-66
+tests/cli/test_cli_input.py
+  s_6b715d61079e12::t_f022c447c4b98a 1-397
+tests/cli/test_commands.py
+  s_6b715d61079e12::t_ae268bb535a804 1-3354
+tests/cli/test_gateway_commands.py
+  s_6b715d61079e12::t_59daa4f24bb855 1-231
+tests/cli/test_interactive_retry_wait.py
+  s_6b715d61079e12::t_15dae329c01f11 1-209
+tests/cli/test_restart_command.py
+  s_6b715d61079e12::t_99f8b03ebd2a1d 1-440
+tests/cli/test_safe_file_history.py
+  s_6b715d61079e12::t_095821590992ae 1-72
+tests/cli_apps/test_service.py
+  s_6b715d61079e12::t_7025e362260b56 1-956
+tests/cli_apps/test_tool.py
+  s_6b715d61079e12::t_d2d2223e4ba27a 1-158
+tests/cli_apps/test_utils.py
+  s_6b715d61079e12::t_e8e53d5a559ee4 1-64
+tests/command/test_builtin_dream.py
+  s_6b715d61079e12::t_2c6ad8e94fce64 1-458
+tests/command/test_model_command.py
+  s_6b715d61079e12::t_444d0a673101e1 1-250
+tests/command/test_router_dispatchable.py
+  s_6b715d61079e12::t_3ba5a9d5bf1616 1-244
+tests/command/test_skill_command.py
+  s_6b715d61079e12::t_d5634691f2cf16 1-146
+tests/command/test_stop_pending_queue.py
+  s_6b715d61079e12::t_69611ab3a05954 1-81
+tests/command/test_trigger_command.py
+  s_6b715d61079e12::t_f107e3038b30de 1-109
+tests/config/test_config_load_errors.py
+  s_6b715d61079e12::t_e1548e415376f9 1-44
+tests/config/test_config_migration.py
+  s_6b715d61079e12::t_cf8a1a2d06ff0d 1-310
+tests/config/test_config_paths.py
+  s_6b715d61079e12::t_aaa12028c73240 1-47
+tests/config/test_dream_config.py
+  s_6b715d61079e12::t_c143df347ed050 1-54
+tests/config/test_env_interpolation.py
+  s_6b715d61079e12::t_6cf870957436ee 1-197
+tests/config/test_gateway_config.py
+  s_6b715d61079e12::t_a6e578ba165355 1-15
+tests/config/test_model_presets.py
+  s_6b715d61079e12::t_e6c71fd86854f9 1-366
+tests/config/test_tool_config_boundaries.py
+  s_6b715d61079e12::t_ce101ed29be4bf 1-38
+tests/cron/test_cron_persistence.py
+  s_6b715d61079e12::t_ff81bde1b17c42 1-339
+tests/cron/test_cron_service.py
+  s_6b715d61079e12::t_b9160ad22def61 1-969
+tests/cron/test_cron_tool_list.py
+  s_6b715d61079e12::t_4f6413ca785e1d 1-450
+tests/cron/test_cron_tool_schema_contract.py
+  s_6b715d61079e12::t_069dd8f8f04d37 1-104
+tests/cron/test_session_delivery.py
+  s_6b715d61079e12::t_b788eb4ebffc5a 1-44
+tests/gateway/test_api_runtime.py
+  s_6b715d61079e12::t_b765448b9a52a2 1-57
+tests/gateway/test_gateway_service.py
+  s_6b715d61079e12::t_6ee6ac888bb9a4 1-214
+tests/gateway/test_runtime.py
+  s_6b715d61079e12::t_918cdc959b94fc 1-324
+tests/pairing/test_store.py
+  s_6b715d61079e12::t_96279f5006b088 1-242
+tests/providers/test_ant_ling_provider.py
+  s_6b715d61079e12::t_50640ffc0d42c4 1-73
+tests/providers/test_anthropic_long_request_fallback.py
+  s_6b715d61079e12::t_3382b5ecbe1974 1-104
+tests/providers/test_anthropic_merge_consecutive.py
+  s_6b715d61079e12::t_9c95d73102d1b8 1-139
+tests/providers/test_anthropic_stream_idle.py
+  s_6b715d61079e12::t_3a0e0628ffbca3 1-217
+tests/providers/test_anthropic_thinking.py
+  s_6b715d61079e12::t_92edcf905d80f6 1-145
+tests/providers/test_anthropic_tool_result.py
+  s_6b715d61079e12::t_91c8dca8e9efe9 1-221
+tests/providers/test_azure_openai_provider.py
+  s_6b715d61079e12::t_1e6fc356512e8a 1-556
+tests/providers/test_bedrock_provider.py
+  s_6b715d61079e12::t_199ae6ce31ff45 1-298
+tests/providers/test_cached_tokens.py
+  s_6b715d61079e12::t_e646826cab5521 1-233
+tests/providers/test_custom_provider.py
+  s_6b715d61079e12::t_b67d4e0d313ea1 1-163
+tests/providers/test_custom_thinking_style.py
+  s_6b715d61079e12::t_9f8fc56e0f98e5 1-62
+tests/providers/test_enforce_role_alternation.py
+  s_6b715d61079e12::t_f74ecb7d7c375e 1-240
+tests/providers/test_extra_body_config.py
+  s_6b715d61079e12::t_9fc713ac12a163 1-295
+tests/providers/test_extra_query_config.py
+  s_6b715d61079e12::t_82bb72b983a01d 1-101
+tests/providers/test_github_copilot_concurrent_token.py
+  s_6b715d61079e12::t_e45371fbc16da0 1-119
+tests/providers/test_github_copilot_enterprise.py
+  s_6b715d61079e12::t_abea771ab3667f 1-143
+tests/providers/test_github_copilot_routing.py
+  s_6b715d61079e12::t_2f0fa79d954e69 1-81
+tests/providers/test_image_generation.py
+  s_6b715d61079e12::t_dc6b5f68a0e0e5 1-1471
+tests/providers/test_litellm_kwargs.py
+  s_6b715d61079e12::t_89cde324f8c1e4 1-1685
+tests/providers/test_llm_response.py
+  s_6b715d61079e12::t_fbdd34533954d1 1-63
+tests/providers/test_local_endpoint_detection.py
+  s_6b715d61079e12::t_19fc7c4e4ce754 1-121
+tests/providers/test_longcat_provider.py
+  s_6b715d61079e12::t_41b061df754687 1-29
+tests/providers/test_minimax_anthropic_provider.py
+  s_6b715d61079e12::t_f3cd155dbb1578 1-21
+tests/providers/test_mistral_provider.py
+  s_6b715d61079e12::t_81b55a605e2586 1-355
+tests/providers/test_novita_provider.py
+  s_6b715d61079e12::t_6fbfa6b26ce966 1-97
+tests/providers/test_openai_codex_provider.py
+  s_6b715d61079e12::t_3ea5a6311648bc 1-549
+tests/providers/test_openai_compat_timeout.py
+  s_6b715d61079e12::t_4cea1a4925d37a 1-61
+tests/providers/test_openai_responses.py
+  s_6b715d61079e12::t_74ef4fa618ae86 1-919
+tests/providers/test_opencode_provider.py
+  s_6b715d61079e12::t_b51ec23c92fa6a 1-122
+tests/providers/test_prompt_cache_markers.py
+  s_6b715d61079e12::t_41b487ce36f422 1-87
+tests/providers/test_provider_default_headers.py
+  s_6b715d61079e12::t_01555a4c8ee1b2 1-50
+tests/providers/test_provider_error_metadata.py
+  s_6b715d61079e12::t_43463ba55dc952 1-95
+tests/providers/test_provider_retry.py
+  s_6b715d61079e12::t_1d9700bdd1add8 1-732
+tests/providers/test_provider_retry_after_hints.py
+  s_6b715d61079e12::t_dd31714834a84f 1-42
+tests/providers/test_provider_sdk_retry_defaults.py
+  s_6b715d61079e12::t_348ba3f2cbe23f 1-46
+tests/providers/test_provider_tool_arguments.py
+  s_6b715d61079e12::t_0399c39754c341 1-30
+tests/providers/test_providers_init.py
+  s_6b715d61079e12::t_c7e90a7c8791a0 1-52
+tests/providers/test_proxy_env.py
+  s_6b715d61079e12::t_a694507d9df2f6 1-86
+tests/providers/test_reasoning_content.py
+  s_6b715d61079e12::t_2685df9bdcff56 1-204
+tests/providers/test_responses_circuit_breaker.py
+  s_6b715d61079e12::t_26fa351146dfad 1-105
+tests/providers/test_skywork_provider.py
+  s_6b715d61079e12::t_91dfbc58ab2a8a 1-80
+tests/providers/test_stepfun_asr.py
+  s_6b715d61079e12::t_e39ae7c75a2c0d 1-427
+tests/providers/test_stepfun_reasoning.py
+  s_6b715d61079e12::t_fd5a903760971a 1-298
+tests/providers/test_stream_idle_timeout_config.py
+  s_6b715d61079e12::t_d79c8ab2d84e93 1-145
+tests/providers/test_strip_image_content.py
+  s_6b715d61079e12::t_f136f26b6750cc 1-172
+tests/providers/test_transcription.py
+  s_6b715d61079e12::t_ed5331bdecb67a 1-944
+tests/providers/test_xiaomi_mimo_thinking.py
+  s_6b715d61079e12::t_60231c24760e4f 1-237
+tests/security/test_security_network.py
+  s_6b715d61079e12::t_7e23c7c44e8a1b 1-322
+tests/security/test_workspace_policy.py
+  s_6b715d61079e12::t_ce086b31a78f72 1-166
+tests/security/test_workspace_sandbox.py
+  s_6b715d61079e12::t_fafef56d7bca06 1-68
+tests/session/test_consolidated_offset_clamp.py
+  s_6b715d61079e12::t_b3b8ca821f8bd8 1-60
+tests/session/test_goal_state.py
+  s_6b715d61079e12::t_fc4dc679b904cd 1-149
+tests/session/test_session_fsync.py
+  s_6b715d61079e12::t_0853864f0d11e0 1-130
+tests/session/test_session_list_repair_legacy.py
+  s_6b715d61079e12::t_693bd03c97ba11 1-40
+tests/session/test_turn_continuation.py
+  s_6b715d61079e12::t_635b5c2c6684ae 1-167
+tests/test_api_attachment.py
+  s_6b715d61079e12::t_fdcde718329342 1-507
+tests/test_api_stream.py
+  s_6b715d61079e12::t_9a5832389f5e71 1-383
+tests/test_build_status.py
+  s_6b715d61079e12::t_fa9ebe7907bc4d 1-92
+tests/test_context_documents.py
+  s_6b715d61079e12::t_4df0af651a311f 1-113
+tests/test_docker.sh
+  s_6b715d61079e12::t_f142ce9c12d77d 1-56
+tests/test_document_parsing.py
+  s_6b715d61079e12::t_2a23c926f676aa 1-391
+tests/test_file_tool_toggle.py
+  s_6b715d61079e12::t_ab30bd606d7887 1-44
+tests/test_msteams.py
+  s_6b715d61079e12::t_8dc8d67f5ef3b5 1-956
+tests/test_nanobot_facade.py
+  s_6b715d61079e12::t_d5709cd6e41e4b 1-1401
+tests/test_openai_api.py
+  s_6b715d61079e12::t_4ad7caa607fe41 1-537
+tests/test_package_version.py
+  s_6b715d61079e12::t_caf01ad52b6948 1-41
+tests/test_tool_contextvars.py
+  s_6b715d61079e12::t_be0d23cb91059f 1-331
+tests/test_truncate_text_shadowing.py
+  s_6b715d61079e12::t_9b810947aee64c 1-31
+tests/tools/test_apply_patch_tool.py
+  s_6b715d61079e12::t_fa6ee74224f66c 1-455
+tests/tools/test_edit_advanced.py
+  s_6b715d61079e12::t_3bb96b48ba75ea 1-366
+tests/tools/test_edit_enhancements.py
+  s_6b715d61079e12::t_29fbb60e4980d2 1-161
+tests/tools/test_exec_allow_patterns.py
+  s_6b715d61079e12::t_1107e3318e0890 1-89
+tests/tools/test_exec_env.py
+  s_6b715d61079e12::t_9646e35f5b5d3c 1-170
+tests/tools/test_exec_platform.py
+  s_6b715d61079e12::t_242cffbe4d8e14 1-806
+tests/tools/test_exec_security.py
+  s_6b715d61079e12::t_e2c9e70876dd61 1-397
+tests/tools/test_exec_session_tools.py
+  s_6b715d61079e12::t_310082b6f735e2 1-391
+tests/tools/test_file_edit_coding_enhancements.py
+  s_6b715d61079e12::t_04545e5c5c4b08 1-249
+tests/tools/test_filesystem_tools.py
+  s_6b715d61079e12::t_9a53da4bf4d388 1-501
+tests/tools/test_image_generation_tool.py
+  s_6b715d61079e12::t_80712d8c990d61 1-204
+tests/tools/test_mcp_probe.py
+  s_6b715d61079e12::t_ca78321b151497 1-184
+tests/tools/test_mcp_tool.py
+  s_6b715d61079e12::t_36d4ed99f319c1 1-1488
+tests/tools/test_message_tool.py
+  s_6b715d61079e12::t_07b198d023fcf3 1-452
+tests/tools/test_message_tool_suppress.py
+  s_6b715d61079e12::t_a82688acbc2a41 1-182
+tests/tools/test_read_enhancements.py
+  s_6b715d61079e12::t_69381e186bfd14 1-443
+tests/tools/test_sandbox.py
+  s_6b715d61079e12::t_31bc5f7ad49a69 1-163
+tests/tools/test_search_tools.py
+  s_6b715d61079e12::t_4699861a8223f6 1-377
+tests/tools/test_shell_reap.py
+  s_6b715d61079e12::t_5bb7b527324eea 1-255
+tests/tools/test_tool_descriptions.py
+  s_6b715d61079e12::t_5946cbba830e3d 1-76
+tests/tools/test_tool_loader.py
+  s_6b715d61079e12::t_5b6f6cac4febf0 1-400
+tests/tools/test_tool_registry.py
+  s_6b715d61079e12::t_9bf754d0af1e75 1-323
+tests/tools/test_tool_validation.py
+  s_6b715d61079e12::t_cb9325b013ea19 1-777
+tests/tools/test_web_fetch_security.py
+  s_6b715d61079e12::t_2871abfc7ebec4 1-530
+tests/tools/test_web_fetch_url_sanitization.py
+  s_6b715d61079e12::t_d0e52be189350e 1-157
+tests/tools/test_web_search_tool.py
+  s_6b715d61079e12::t_513376c30a0f5a 1-823
+tests/triggers/test_local_triggers.py
+  s_6b715d61079e12::t_fe4e852291abe2 1-492
+tests/utils/test_abbreviate_path.py
+  s_6b715d61079e12::t_eadfa3fd723fa6 1-105
+tests/utils/test_artifacts.py
+  s_6b715d61079e12::t_3a766c2f1cd858 1-66
+tests/utils/test_file_edit_events.py
+  s_6b715d61079e12::t_ef1a856c1c2b6d 1-242
+tests/utils/test_gitstore.py
+  s_6b715d61079e12::t_88535f8d48c5a5 1-267
+tests/utils/test_helpers.py
+  s_6b715d61079e12::t_f87e13759cfb1c 1-77
+tests/utils/test_media_decode.py
+  s_6b715d61079e12::t_37f3463889a3b2 1-125
+tests/utils/test_restart.py
+  s_6b715d61079e12::t_9c948cbd76ff38 1-78
+tests/utils/test_searchusage.py
+  s_6b715d61079e12::t_4f74795f301642 1-306
+tests/utils/test_strip_think.py
+  s_6b715d61079e12::t_e431a2da434704 1-332
+tests/utils/test_subagent_channel_display.py
+  s_6b715d61079e12::t_80ea5587ac2563 1-57
+tests/utils/test_token_estimation.py
+  s_6b715d61079e12::t_7891513accf9aa 1-99
+tests/utils/test_webui_compat_imports.py
+  s_6b715d61079e12::t_1867d858329fe9 1-14
+tests/utils/test_webui_sidebar_state.py
+  s_6b715d61079e12::t_b77c0cd5d90e6b 1-77
+tests/utils/test_webui_thread_disk.py
+  s_6b715d61079e12::t_e1ebb83b3b6d96 1-37
+tests/utils/test_webui_transcript.py
+  s_6b715d61079e12::t_202541c256a42a 1-1382
+tests/utils/test_webui_turn_helpers.py
+  s_6b715d61079e12::t_89745ebb2755e3 1-71
+tests/utils/test_webui_websocket_logging.py
+  s_6b715d61079e12::t_872581c1ab43e3 1-41
+tests/utils/test_webui_workspaces.py
+  s_6b715d61079e12::t_2600c8ed18de38 1-266
+tests/utils/test_workspace_violation_throttle.py
+  s_6b715d61079e12::t_a8227f1ca818ee 1-120
+tests/webui/test_attachment_ingress.py
+  s_6b715d61079e12::t_69bcca2c126a64 1-117
+tests/webui/test_build.py
+  s_6b715d61079e12::t_2660d64817659d 1-116
+tests/webui/test_channel_connect.py
+  s_6b715d61079e12::t_6fe1564884df74 1-99
+tests/webui/test_channel_validation.py
+  s_6b715d61079e12::t_fce4cc7ac58cbd 1-231
+tests/webui/test_cli_apps_api.py
+  s_6b715d61079e12::t_58ed97b84ac360 1-168
+tests/webui/test_gateway_webui_smoke.py
+  s_6b715d61079e12::t_73ac03f4a11455 1-193
+tests/webui/test_ingress_policy.py
+  s_6b715d61079e12::t_7ca03733f7b31f 1-28
+tests/webui/test_mcp_presets_api.py
+  s_6b715d61079e12::t_0acc7e2401dd6b 1-410
+tests/webui/test_mcp_presets_runtime.py
+  s_6b715d61079e12::t_1b28e78b6c0159 1-10
+tests/webui/test_session_list_index.py
+  s_6b715d61079e12::t_7ae8d0f641662b 1-269
+tests/webui/test_settings_api.py
+  s_6b715d61079e12::t_a33c69336cc359 1-1345
+tests/webui/test_token_usage.py
+  s_6b715d61079e12::t_1c0cc033c62046 1-148
+tests/webui/test_transcription_ws.py
+  s_6b715d61079e12::t_225b3e1423edf4 1-129
+webui/.gitignore
+  s_6b715d61079e12::t_c678d0992861ec 1-8
+webui/README.md
+  s_6b715d61079e12::t_1709d3590b8df7 1-101
+webui/bun.lock
+  s_6b715d61079e12::t_3b5880c6d96231 1-1186
+webui/components.json
+  s_6b715d61079e12::t_fdbff3b0641a2e 1-20
+webui/eslint.config.js
+  s_6b715d61079e12::t_b4edd33a4c2253 1-31
+webui/index.html
+  s_6b715d61079e12::t_ef06dda9ed94c5 1-193
+webui/package-lock.json
+  s_6b715d61079e12::t_9cba45a48496ad 1-7128
+webui/package.json
+  s_6b715d61079e12::t_c16d63021ab2f2 1-64
+webui/postcss.config.js
+  s_6b715d61079e12::t_a0a11a9b1a70b8 1-6
+webui/src/App.tsx
+  s_6b715d61079e12::t_4f3aaedcdeb6d9 1-2197
+webui/src/components/AttachmentTile.tsx
+  s_6b715d61079e12::t_03f4e9b05d3059 1-173
+webui/src/components/ChatList.tsx
+  s_6b715d61079e12::t_2e6c54624a5a7c 1-559
+webui/src/components/CliAppMentionText.tsx
+  s_6b715d61079e12::t_24f5ff3b557e5b 1-256
+webui/src/components/CodeBlock.tsx
+  s_6b715d61079e12::t_e9b877bbc7fd33 1-284
+webui/src/components/ConnectionBadge.tsx
+  s_6b715d61079e12::t_516e3203a7b9f8 1-60
+webui/src/components/DeleteConfirm.tsx
+  s_6b715d61079e12::t_f070cbf3aeb5e6 1-168
+webui/src/components/FilePreviewPanel.tsx
+  s_6b715d61079e12::t_6cdb5b8f040f61 1-253
+webui/src/components/FileReferenceChip.tsx
+  s_6b715d61079e12::t_afcf24e4e900ac 1-310
+webui/src/components/ImageLightbox.tsx
+  s_6b715d61079e12::t_bfa07fb2abb7a5 1-199
+webui/src/components/LanguageSwitcher.tsx
+  s_6b715d61079e12::t_80fec8b001a8cb 1-67
+webui/src/components/MarkdownText.tsx
+  s_6b715d61079e12::t_6a2e041b503cda 1-174
+webui/src/components/MarkdownTextRenderer.tsx
+  s_6b715d61079e12::t_1edf418cf6ae36 1-615
+webui/src/components/MessageBubble.tsx
+  s_6b715d61079e12::t_f22edca8edae4b 1-761
+webui/src/components/RenameChatDialog.tsx
+  s_6b715d61079e12::t_18382c963a70de 1-81
+webui/src/components/SessionSearchDialog.tsx
+  s_6b715d61079e12::t_8b1f1e443d662a 1-238
+webui/src/components/Sidebar.tsx
+  s_6b715d61079e12::t_38910e1baf9005 1-307
+webui/src/components/settings/SettingsView.tsx
+  s_6b715d61079e12::t_d972d97ef4b919 1-8525
+webui/src/components/settings/SkillsCatalogSettings.tsx
+  s_6b715d61079e12::t_ca392a23b86581 1-417
+webui/src/components/settings/ToggleButton.tsx
+  s_6b715d61079e12::t_2922fd971ae9ec 1-48
+webui/src/components/settings/TokenUsageHeatmap.tsx
+  s_6b715d61079e12::t_777987359bd79f 1-250
+webui/src/components/settings/channels/ChannelIdentity.tsx
+  s_6b715d61079e12::t_48602f319fb34a 1-134
+webui/src/components/settings/channels/ChannelQrConnectFlow.tsx
+  s_6b715d61079e12::t_bede6bfd6da2fb 1-334
+webui/src/components/settings/channels/ChannelSetupPanel.tsx
+  s_6b715d61079e12::t_22977310892b18 1-552
+webui/src/components/settings/channels/ChannelSetupParts.tsx
+  s_6b715d61079e12::t_d4bf70fd3b7aaf 1-393
+webui/src/components/settings/channels/CredentialForm.tsx
+  s_6b715d61079e12::t_c10c62fa0dc197 1-231
+webui/src/components/settings/channels/FeishuAssistantsPanel.tsx
+  s_6b715d61079e12::t_3e3e298b0e6937 1-478
+webui/src/components/settings/channels/catalog.ts
+  s_6b715d61079e12::t_4f5a21e820d0ec 1-1020
+webui/src/components/thread/AgentActivityCluster.tsx
+  s_6b715d61079e12::t_474dee48b74dd4 1-1863
+webui/src/components/thread/PromptNavigator.tsx
+  s_6b715d61079e12::t_ed095e7b0d8a08 1-149
+webui/src/components/thread/PromptRail.tsx
+  s_6b715d61079e12::t_a898a614cbbf0e 1-352
+webui/src/components/thread/SessionInfoPopover.tsx
+  s_6b715d61079e12::t_cad9123e45d9fd 1-239
+webui/src/components/thread/StreamErrorNotice.tsx
+  s_6b715d61079e12::t_248d7b661e366e 1-77
+webui/src/components/thread/ThreadComposer.tsx
+  s_6b715d61079e12::t_a53407274f11c2 1-2777
+webui/src/components/thread/ThreadHeader.tsx
+  s_6b715d61079e12::t_c6354fbf11de64 1-111
+webui/src/components/thread/ThreadMessages.tsx
+  s_6b715d61079e12::t_9a98cacb921fc9 1-230
+webui/src/components/thread/ThreadShell.tsx
+  s_6b715d61079e12::t_41afc5c297ca3b 1-867
+webui/src/components/thread/ThreadViewport.tsx
+  s_6b715d61079e12::t_e70cc93cd82b62 1-596
+webui/src/components/thread/WorkspaceControls.tsx
+  s_6b715d61079e12::t_db0c81a3b1c55c 1-326
+webui/src/components/thread/activity/ActivityEvidencePreview.tsx
+  s_6b715d61079e12::t_30763a0a01e132 1-35
+webui/src/components/thread/activity/ActivityGroup.tsx
+  s_6b715d61079e12::t_e553f833eb346d 1-28
+webui/src/components/thread/activity/ActivityStep.tsx
+  s_6b715d61079e12::t_decdc620cfb320 1-95
+webui/src/components/thread/activity/DiffPair.tsx
+  s_6b715d61079e12::t_18b3aba38abdaa 1-36
+webui/src/components/thread/activity/DiffSyntaxHighlight.tsx
+  s_6b715d61079e12::t_2d65d2ea034d9e 1-186
+webui/src/components/thread/activity/FileEditRow.tsx
+  s_6b715d61079e12::t_7c752256ee8ea9 1-480
+webui/src/components/thread/activity/ReasoningRow.tsx
+  s_6b715d61079e12::t_4c4cf3a0bcbaec 1-99
+webui/src/components/thread/promptNavigation.ts
+  s_6b715d61079e12::t_e73d668d83b5e7 1-87
+webui/src/components/ui/alert-dialog.tsx
+  s_6b715d61079e12::t_db1f6e65002f51 1-131
+webui/src/components/ui/button.tsx
+  s_6b715d61079e12::t_d4207bc7741be4 1-56
+webui/src/components/ui/dialog.tsx
+  s_6b715d61079e12::t_c7df579c2e2982 1-120
+webui/src/components/ui/dropdown-menu.tsx
+  s_6b715d61079e12::t_794140824cf418 1-192
+webui/src/components/ui/input.tsx
+  s_6b715d61079e12::t_7dd42597716d23 1-24
+webui/src/components/ui/separator.tsx
+  s_6b715d61079e12::t_53d0d98b709bb1 1-29
+webui/src/components/ui/sheet.tsx
+  s_6b715d61079e12::t_85abd2db5dc968 1-115
+webui/src/components/ui/textarea.tsx
+  s_6b715d61079e12::t_c17daa8be67b6b 1-23
+webui/src/components/ui/tooltip.tsx
+  s_6b715d61079e12::t_cbc1d960768089 1-28
+webui/src/globals.css
+  s_6b715d61079e12::t_418f0ca5277db6 1-593
+webui/src/hooks/useAttachedImages.ts
+  s_6b715d61079e12::t_cb22ef0416c5d0 1-492
+webui/src/hooks/useClipboardAndDrop.ts
+  s_6b715d61079e12::t_5b6c030dca3698 1-112
+webui/src/hooks/useDeferredTitleRefresh.ts
+  s_6b715d61079e12::t_98e2ccd64ddea0 1-68
+webui/src/hooks/useFileEditDisplayMode.ts
+  s_6b715d61079e12::t_d7fa06e11edaf3 1-37
+webui/src/hooks/useLogoFallback.ts
+  s_6b715d61079e12::t_8d90d053b6f13d 1-78
+webui/src/hooks/useMediaQuery.ts
+  s_6b715d61079e12::t_482cfcbc185274 1-30
+webui/src/hooks/useNanobotStream.ts
+  s_6b715d61079e12::t_2be2f563d57241 1-1223
+webui/src/hooks/useSessionAutomationJobs.ts
+  s_6b715d61079e12::t_76a6de5772b238 1-61
+webui/src/hooks/useSessions.ts
+  s_6b715d61079e12::t_e9ad0e85075f9a 1-462
+webui/src/hooks/useSidebarState.ts
+  s_6b715d61079e12::t_3f4670cb43c2d0 1-208
+webui/src/hooks/useSkills.ts
+  s_6b715d61079e12::t_9932ddecca2558 1-20
+webui/src/hooks/useTheme.ts
+  s_6b715d61079e12::t_7c9055281e3a89 1-69
+webui/src/hooks/useVoiceRecorder.ts
+  s_6b715d61079e12::t_b97aea59560572 1-512
+webui/src/i18n/config.ts
+  s_6b715d61079e12::t_395393d4c0b514 1-84
+webui/src/i18n/index.ts
+  s_6b715d61079e12::t_e094aba968c020 1-74
+webui/src/i18n/locales/en/common.json
+  s_6b715d61079e12::t_26a150b5ac53c1 1-1160
+webui/src/i18n/locales/es/common.json
+  s_6b715d61079e12::t_1681dc488848a1 1-1147
+webui/src/i18n/locales/fr/common.json
+  s_6b715d61079e12::t_10f047f9eba5b8 1-1146
+webui/src/i18n/locales/id/common.json
+  s_6b715d61079e12::t_6de289aaf321b5 1-1146
+webui/src/i18n/locales/ja/common.json
+  s_6b715d61079e12::t_5044e757eb22ab 1-1146
+webui/src/i18n/locales/ko/common.json
+  s_6b715d61079e12::t_430a6bc2f47c5b 1-1146
+webui/src/i18n/locales/pt-BR/common.json
+  s_6b715d61079e12::t_c86921737c3bf7 1-1160
+webui/src/i18n/locales/vi/common.json
+  s_6b715d61079e12::t_bb141ad875ecb8 1-1146
+webui/src/i18n/locales/zh-CN/common.json
+  s_6b715d61079e12::t_9d469e2b002193 1-1160
+webui/src/lib/activity-timeline.ts
+  s_6b715d61079e12::t_daa62decb9ba43 1-417
+webui/src/lib/ansi.ts
+  s_6b715d61079e12::t_8926728f8f3688 1-210
+webui/src/lib/api.ts
+  s_6b715d61079e12::t_c522df2cfb4b9d 1-892
+webui/src/lib/bootstrap.ts
+  s_6b715d61079e12::t_d170f19f751abb 1-131
+webui/src/lib/chat-groups.ts
+  s_6b715d61079e12::t_383c927ee0338d 1-380
+webui/src/lib/cli-app-events.ts
+  s_6b715d61079e12::t_288e931c85a203 1-22
+webui/src/lib/clipboard.ts
+  s_6b715d61079e12::t_73fd55826118da 1-40
+webui/src/lib/code-language.ts
+  s_6b715d61079e12::t_f14803c40d89f2 1-100
+webui/src/lib/file-diff.ts
+  s_6b715d61079e12::t_063ee0c2e262f7 1-94
+webui/src/lib/format.ts
+  s_6b715d61079e12::t_cb587fbb609583 1-132
+webui/src/lib/http.ts
+  s_6b715d61079e12::t_84d61f71543c54 1-33
+webui/src/lib/imageEncode.ts
+  s_6b715d61079e12::t_2f1f9951a156b4 1-83
+webui/src/lib/local-preferences.ts
+  s_6b715d61079e12::t_a625ba070ec918 1-55
+webui/src/lib/mcp-preset-events.ts
+  s_6b715d61079e12::t_8efd7c9091c0ce 1-20
+webui/src/lib/media.ts
+  s_6b715d61079e12::t_9ff4e18ea13a68 1-64
+webui/src/lib/nanobot-client.ts
+  s_6b715d61079e12::t_63ce3178f1173a 1-672
+webui/src/lib/network.ts
+  s_6b715d61079e12::t_cb037d266a3ca7 1-15
+webui/src/lib/provider-brand.ts
+  s_6b715d61079e12::t_63e51760a3e9bd 1-199
+webui/src/lib/remark-tex-math.ts
+  s_6b715d61079e12::t_1e1299c3af5b28 1-297
+webui/src/lib/runtime.ts
+  s_6b715d61079e12::t_6bdb6a4a92d4e0 1-231
+webui/src/lib/subagent-channel-display.ts
+  s_6b715d61079e12::t_079bee0d40f766 1-59
+webui/src/lib/thread-display-compat.ts
+  s_6b715d61079e12::t_fb4c68503a1443 1-22
+webui/src/lib/tool-traces.ts
+  s_6b715d61079e12::t_6dbe622e988ca4 1-104
+webui/src/lib/types.ts
+  s_6b715d61079e12::t_7e5a97634280a2 1-1155
+webui/src/lib/utils.ts
+  s_6b715d61079e12::t_38298a0642de47 1-6
+webui/src/lib/workspace.ts
+  s_6b715d61079e12::t_8a4175cec3cde5 1-56
+webui/src/main.tsx
+  s_6b715d61079e12::t_f850e8afecb383 1-27
+webui/src/providers/ClientProvider.tsx
+  s_6b715d61079e12::t_94b45b9e37426a 1-41
+webui/src/tests/agent-activity-cluster.test.tsx
+  s_6b715d61079e12::t_55466aae69cc2b 1-1444
+webui/src/tests/api.test.ts
+  s_6b715d61079e12::t_37771c3b9ce685 1-865
+webui/src/tests/app-layout.test.tsx
+  s_6b715d61079e12::t_d57ad3cde2a160 1-2248
+webui/src/tests/bootstrap.test.ts
+  s_6b715d61079e12::t_4250f3a48f443e 1-86
+webui/src/tests/channel-catalog.test.ts
+  s_6b715d61079e12::t_fd22602725ec52 1-28
+webui/src/tests/chat-list.test.tsx
+  s_6b715d61079e12::t_751dd3db213ca8 1-453
+webui/src/tests/code-block.test.tsx
+  s_6b715d61079e12::t_44f64a85ed3de9 1-247
+webui/src/tests/code-language.test.ts
+  s_6b715d61079e12::t_ddfb24decd4d03 1-24
+webui/src/tests/diff-syntax-highlight.integration.test.tsx
+  s_6b715d61079e12::t_8c571907403f2a 1-58
+webui/src/tests/diff-syntax-highlight.test.tsx
+  s_6b715d61079e12::t_36324fecf9b812 1-92
+webui/src/tests/file-preview-panel.test.tsx
+  s_6b715d61079e12::t_7c535e5789f71a 1-76
+webui/src/tests/format.i18n.test.ts
+  s_6b715d61079e12::t_f502c7795ea947 1-82
+webui/src/tests/i18n.test.tsx
+  s_6b715d61079e12::t_22c5396fbb4d6d 1-409
+webui/src/tests/main-randomuuid.test.tsx
+  s_6b715d61079e12::t_6770a6235d2748 1-42
+webui/src/tests/markdown-text-lazy-failure.test.tsx
+  s_6b715d61079e12::t_28f2133fbeb39a 1-25
+webui/src/tests/markdown-text-renderer.test.tsx
+  s_6b715d61079e12::t_3d9acddf248d2f 1-371
+webui/src/tests/markdown-text.test.tsx
+  s_6b715d61079e12::t_129944c804f003 1-108
+webui/src/tests/message-bubble.test.tsx
+  s_6b715d61079e12::t_d1bb5da84c898f 1-513
+webui/src/tests/nanobot-client.test.ts
+  s_6b715d61079e12::t_c06777443a7a8e 1-834
+webui/src/tests/network.test.ts
+  s_6b715d61079e12::t_faab81d2fc0832 1-15
+webui/src/tests/provider-brand.test.ts
+  s_6b715d61079e12::t_54d2f369a2121e 1-65
+webui/src/tests/runtime.test.ts
+  s_6b715d61079e12::t_a345476ff1e045 1-45
+webui/src/tests/session-info-popover.test.tsx
+  s_6b715d61079e12::t_7ec59bc36600e5 1-144
+webui/src/tests/session-search-dialog.test.tsx
+  s_6b715d61079e12::t_b1ae63e4494cef 1-70
+webui/src/tests/settings-view.test.tsx
+  s_6b715d61079e12::t_559888888eaa85 1-2383
+webui/src/tests/setup.ts
+  s_6b715d61079e12::t_30c79184b22c86 1-61
+webui/src/tests/subagent-channel-display.test.ts
+  s_6b715d61079e12::t_c8f68084f6a6e3 1-41
+webui/src/tests/thread-composer-attach.test.tsx
+  s_6b715d61079e12::t_28fa4f6e9d2910 1-429
+webui/src/tests/thread-composer.test.tsx
+  s_6b715d61079e12::t_56ea7ae2a62e03 1-2102
+webui/src/tests/thread-display-compat.test.ts
+  s_6b715d61079e12::t_b8b48f8d60e970 1-20
+webui/src/tests/thread-messages.test.tsx
+  s_6b715d61079e12::t_b1d1afa859fcf0 1-802
+webui/src/tests/thread-shell.test.tsx
+  s_6b715d61079e12::t_1d6ae3ee5019df 1-1590
+webui/src/tests/thread-viewport.test.tsx
+  s_6b715d61079e12::t_e33d89677551d6 1-1127
+webui/src/tests/useDeferredTitleRefresh.test.tsx
+  s_6b715d61079e12::t_df0debfe6503be 1-110
+webui/src/tests/useFileEditDisplayMode.test.tsx
+  s_6b715d61079e12::t_0ee82a3474cbc9 1-37
+webui/src/tests/useLogoFallback.test.tsx
+  s_6b715d61079e12::t_49d7b61e7536c6 1-54
+webui/src/tests/useNanobotStream.test.tsx
+  s_6b715d61079e12::t_06e019e3a4f988 1-2108
+webui/src/tests/useSessions.test.tsx
+  s_6b715d61079e12::t_e882231d6acf14 1-569
+webui/src/tests/vite-config.test.ts
+  s_6b715d61079e12::t_d86ab239e471c3 1-21
+webui/src/types/react-syntax-highlighter-subpaths.d.ts
+  s_6b715d61079e12::t_29d5e0eb9a0ebb 1-22
+webui/src/workers/imageEncode.worker.ts
+  s_6b715d61079e12::t_97ef253045cd37 1-264
+webui/tailwind.config.js
+  s_6b715d61079e12::t_0d4daa20b6a20e 1-109
+webui/tsconfig.build.json
+  s_6b715d61079e12::t_22ea8b5863853d 1-7
+webui/tsconfig.json
+  s_6b715d61079e12::t_966914e02f77ff 1-32
+webui/vite.config.ts
+  s_6b715d61079e12::t_5bbe2b08d539ea 1-92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "082f55ec1dad012be8c5c36f4d3f8b96bac3d8c3",
+  "prompts": {},
+  "sessions": {
+    "s_6b715d61079e12": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f608c-be2b-7fa1-a5e8-07042adf72aa",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Peter Dave Hello <hsu@peterdavehello.org>"
+    },
+    "s_73683fcc3050c7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f6090-acb9-7b70-87ee-dd8ca6e2938a",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Peter Dave Hello <hsu@peterdavehello.org>"
+    },
+    "s_c64f55c2041106": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f609b-e4c5-7222-ba2e-7bfaeaf22f5c",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Peter Dave Hello <hsu@peterdavehello.org>"
+    }
+  }
+}
