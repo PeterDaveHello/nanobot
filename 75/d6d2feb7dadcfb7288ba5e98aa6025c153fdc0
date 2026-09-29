@@ -1,0 +1,20 @@
+webui/src/i18n/locales/zh-TW/common.json
+  s_8320d1fa10eff0::t_0201a9b81e376f 24,179,192,360,556,885,915,918,920,922,926,1119,1129,1679,1788-1790,1849,1957
+  s_8320d1fa10eff0::t_579d2d11bd5eab 94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "75d6d2feb7dadcfb7288ba5e98aa6025c153fdc0",
+  "prompts": {},
+  "sessions": {
+    "s_8320d1fa10eff0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0edf5-df32-7212-bcd8-7217e7d8dc4a",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "Peter Dave Hello <hsu@peterdavehello.org>"
+    }
+  }
+}
